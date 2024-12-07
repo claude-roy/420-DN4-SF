@@ -5,7 +5,7 @@ Correction et précisions à divers documents du cours et aux fichiers packet tr
 ---
 
 ## Packet Tracer
-### 3.6.1
+#### 3.6.1
 
 Le noms des VLANs  
 
