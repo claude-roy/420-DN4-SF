@@ -74,7 +74,7 @@ Finalement, configurer les informations IPv4 suivantes (ajuster à votre réseau
 ![Promote to DC.](images/PromoteToDC.png "Figure 3 : Promote to DC.")  
 **Figure 3 : Promote to DC.**
 
-12. Dans l'assistant **Active Directory Domain Services Configuration**, sélectionnez l'option **Add a new forest**, comme indiqué dans l'image suivante, et entrez un nom de domaine racine (utiliser _votreNom_.local. Cliquez ensuite sur **Next**.
+13. Dans l'assistant **Active Directory Domain Services Configuration**, sélectionnez l'option **Add a new forest**, comme indiqué dans l'image suivante, et entrez un nom de domaine racine (utiliser _votreNom_.local. Cliquez ensuite sur **Next**.
 
 ![New Forest.](images/Forest.png "Figure 4 : New Forest.")  
 **Figure 4 : New Forest.**  
