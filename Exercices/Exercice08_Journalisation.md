@@ -120,16 +120,16 @@ Nous allons maintenant ajouter un utilisateur dans l'AD et notre station de trav
 ![Ajout au domaine.](images/DomainMemeber.png "Figure 7 : Ajout au domaine.")  
 **Figure 7 : Ajout au domaine.**  
 
-5. Entre un nom d'utilisateur de l'AD (il n'est pas nécessaire d'être un utilisateur administrateur).
+6. Entre un nom d'utilisateur de l'AD (il n'est pas nécessaire d'être un utilisateur administrateur).
 
 ![Utilisateur du domaine.](images/PasswdUser.png "Figure 8 : Utilisateur du domaine.")  
 **Figure 8 : Utilisateur du domaine.**  
 
-6. Cliquer **OK** à la fenêtre de confirmation.  
-7. Cliquer **OK** pour fermer la fenêtre.
-8. Fermer la fenêtre de système.
-7. Cliquer **Restart Now.** pour relancer la VM.
-8. Après le redémarrage, ouvrir une session avec l'utilisateur de l'AD créé précédemment.
+7. Cliquer **OK** à la fenêtre de confirmation.  
+8. Cliquer **OK** pour fermer la fenêtre.
+9. Fermer la fenêtre de système.
+10. Cliquer **Restart Now.** pour relancer la VM.
+11. Après le redémarrage, ouvrir une session avec l'utilisateur de l'AD créé précédemment.
 
 
 #### Pour vérification
