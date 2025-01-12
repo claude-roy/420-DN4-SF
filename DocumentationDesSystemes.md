@@ -9,13 +9,12 @@ La documentation des systèmes n'est pas seulement une bonne habitude, mais éga
 La documentation de vos systèmes doit inclure des éléments essentiels.  
 
 Par exemple :  
-- le nom du serveur;  
-- l'adresse IP;  
+- le nom du serveur, système;  
 - l'emplacement et le rôle;  
 - les spécifications matérielles;  
 - les versions du système d'exploitation et des logiciels;  
-- la configuration réseau;  
-- les services et applications exécutés sur le serveur;  
+- la configuration réseau (l'adresse IP, passerelle, DNS...);    
+- les services et applications exécutés sur le système;  
 - les dépendances et les relations entre serveurs, périphériques et systèmes;  
 - les procédures et calendriers de sauvegarde et de récupération;  
 - les politiques et informations d'identification d'accès et de sécurité;  
@@ -26,7 +25,7 @@ La portée et la profondeur de la documentation de vos systèmes peuvent varier 
 
 ## Comment documenter ?
 
-Lorsque vous documentez vos serveurs, vous devez utiliser la même terminologie, le même style et la même mise en page pour tous les documents. Suivez une convention de dénomination standard et utilisez des modèles et des listes de vérification pour vous assurer que votre documentation est efficace et utile. Rédigez dans un langage simple et concis, en évitant le jargon et les acronymes. Incluez des diagrammes, des captures d'écran et des blocs de code pour illustrer vos propos, ainsi que des explications et des instructions pour tout paramètre ou procédure complexe ou inhabituel. Assurez-vous de couvrir tous les aspects pertinents de votre environnement avec suffisamment de détails pour permettre à quiconque de comprendre et de reproduire votre configuration. Fournissez des liens ou des références à des sources ou documents externes qui peuvent compléter vos informations. De plus, mettez à jour votre documentation régulièrement et rapidement, en enregistrant tous les changements ou modifications que vous apportez à vos serveurs. Enfin, examinez et vérifiez périodiquement vos informations pour garantir leur exactitude et leur validité.  
+Lorsque vous documentez vos systèmes, vous devez utiliser la même terminologie, le même style et la même mise en page pour tous les documents. Suivez une convention de dénomination standard et utilisez des modèles et des listes de vérification pour vous assurer que votre documentation est efficace et utile. Rédigez dans un langage simple et concis, en évitant le jargon et les acronymes. Incluez des diagrammes, des captures d'écran et des blocs de code pour illustrer vos propos, ainsi que des explications et des instructions pour tout paramètre ou procédure complexe ou inhabituel. Assurez-vous de couvrir tous les aspects pertinents de votre environnement avec suffisamment de détails pour permettre à quiconque de comprendre et de reproduire votre configuration. Fournissez des liens ou des références à des sources ou documents externes qui peuvent compléter vos informations. De plus, mettez à jour votre documentation régulièrement et rapidement, en enregistrant tous les changements ou modifications que vous apportez à vos systèmes. Enfin, examinez et vérifiez périodiquement vos informations pour garantir leur exactitude et leur validité.  
 
 ## Comment stocker et partager ?
 
@@ -35,7 +34,7 @@ Lorsque vous choisissez une solution de stockage et de partage pour la documenta
 
 ## Comment l'utiliser et l'améliorer ?
 
-Enfin, vous devez utiliser et améliorer la documentation de vos services comme une ressource précieuse pour vos tâches d'administration réseau et système. Chaque fois que vous devez dépanner, surveiller ou modifier vos systèmes, vous devez vous référer à votre documentation et suivre les étapes et procédures que vous avez documentées. De plus, chaque fois que vous apportez des modifications ou des ajouts à vos systèmes, vous devez mettre à jour votre documentation et documenter les raisons, les actions et les impacts de vos modifications. Vous devez également conserver un journal des dates et des auteurs de vos mises à jour. En outre, il est important de consulter régulièrement votre documentation et de solliciter les commentaires des membres de votre équipe et des parties prenantes. Cela permet de vérifier les éventuelles erreurs, incohérences ou lacunes dans vos informations. Enfin, évaluez l'efficacité et la convivialité de votre documentation et apportez les améliorations nécessaires.  
+Enfin, vous devez utiliser et améliorer la documentation de vos systèmes comme une ressource précieuse pour vos tâches d'administration réseau et système. Chaque fois que vous devez dépanner, surveiller ou modifier vos systèmes, vous devez vous référer à votre documentation et suivre les étapes et procédures que vous avez documentées. De plus, chaque fois que vous apportez des modifications ou des ajouts à vos systèmes, vous devez mettre à jour votre documentation et documenter les raisons, les actions et les impacts de vos modifications. Vous devez également conserver un journal des dates et des auteurs de vos mises à jour. En outre, il est important de consulter régulièrement votre documentation et de solliciter les commentaires des membres de votre équipe et des parties prenantes. Cela permet de vérifier les éventuelles erreurs, incohérences ou lacunes dans vos informations. Enfin, évaluez l'efficacité et la convivialité de votre documentation et apportez les améliorations nécessaires.  
 
 
 *Référence : [https://www.linkedin.com/advice/0/how-can-you-effectively-document-servers-mdfpc](https://www.linkedin.com/advice/0/how-can-you-effectively-document-servers-mdfpc)*
