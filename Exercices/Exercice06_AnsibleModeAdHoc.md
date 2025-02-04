@@ -99,7 +99,7 @@ Lors de l'exécution d'Ansible, nous avons également un avertissement à propos
 ![Avertissement pour l'interpréteur Python](images/warningPython.png "Figure 2 : Avertissement pour l'interpréteur Python.")  
 **Figure 2 : Avertissement pour l'interpréteur Python.**  
 
-Il existe plusieurs méthodes pour arrêter l'affichage de cet avertissement, consulter le lien dans la partie références pour les connaître. De notre côté, nous allons modifier notre fichier `ansible.cfg`. Ajoutez le paramètre `interpreter_python comme indiquer ici :  
+Il existe plusieurs méthodes pour arrêter l'affichage de cet avertissement, consulter le lien dans la partie références pour les connaître. De notre côté, nous allons modifier notre fichier `ansible.cfg`. Ajoutez le paramètre `interpreter_python` comme indiquer ici :  
 
 ```bash
 [defaults]
