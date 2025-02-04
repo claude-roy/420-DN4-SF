@@ -176,14 +176,14 @@ ansible --version
 Ci-dessous un exemple de sortie de cette commande (ici avec la version 2.18.1) :
 
 ```bash
-ansible [core 2.17.5]
+ansible [core 2.18.1]
   config file = None
-  configured module search path = ['/home/deploy/.ansible/plugins/modules', '/usr/share/ansible/plugins/modules']
-  ansible python module location = /usr/lib/python3/dist-packages/ansible
-  ansible collection location = /home/deploy/.ansible/collections:/usr/share/ansible/collections
-  executable location = /usr/bin/ansible
-  python version = 3.12.8 (main, Dec  4 2024, 12:15:27) [GCC 14.2.0] (/usr/bin/python3)
-  jinja version = 3.1.3
+  configured module search path = ['/home/prof/.ansible/plugins/modules', '/usr/share/ansible/plugins/modules']
+  ansible python module location = /home/prof/.local/share/pipx/venvs/ansible/lib/python3.12/site-packages/ansible
+  ansible collection location = /home/prof/.ansible/collections:/usr/share/ansible/collections
+  executable location = /home/prof/.local/bin/ansible
+  python version = 3.12.7 (main, Nov  8 2024, 17:55:36) [GCC 14.2.0] (/home/prof/.local/share/pipx/venvs/ansible/bin/python)
+  jinja version = 3.1.4
   libyaml = True
 ```
 
