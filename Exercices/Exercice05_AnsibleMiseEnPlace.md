@@ -144,7 +144,7 @@ StrictHostKeyChecking no
 UserKnownHostsFile /dev/null  
 ```
 
-Il est aussi possible d'utiliser le paramètre `host_key_cheking=False` dans le fichier `ansible.cfg (voir plus bas).
+Il est aussi possible d'utiliser le paramètre `host_key_cheking=False` dans le fichier `ansible.cfg` (voir plus bas).
 
 Par contre, ce n'est pas une bonne pratique de sécurité.
 
