@@ -1,4 +1,4 @@
-# Utilisation deimages CyberQuébec
+# Utilisation des images CyberQuébec
 
 Voici les informations pour l'utilisation de l'environnement de CyberQuébec.
 
