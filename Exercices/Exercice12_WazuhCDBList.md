@@ -114,7 +114,7 @@ F71539FDCA0C3D54D29DC3B6F8C30E0D:fanny
 </group>
 ~~~  
 
-5. **Redémarrez le manger** : nous devons redémarrer le gestionnaire Wazuh pour appliquer les modifications :  
+5. **Redémarrez le manager** : nous devons redémarrer le gestionnaire Wazuh pour appliquer les modifications :  
 
 ~~~bash
 systemctl restart wazuh-manager
