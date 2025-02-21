@@ -119,10 +119,10 @@ Vous devez fournir (déposé sur LÉA) :
 Vous devez fournir (déposé sur GitHub) :
 
   - Un dépôt privé avec tous vos fichiers de code source de l'évaluation.
-      - Un fichier README.md qui résume les informations sur le dépôt.
-    	- Nom du projet  
-       - Date 
-       - Description du projet  
+      - Un fichier README.md qui résume les informations sur le dépôt.  
+      	 - Nom du projet  
+        - Date 
+        - Description du projet  
       - Le dépôt doit inclure le fichier .traces\_d\_ansible. 
       - Tous les fichiers de votre travail. Je dois pouvoir reproduire votre installation.
   - Un document Markdown nommé `Section1_Validation.md` contenant les informations suivantes :
