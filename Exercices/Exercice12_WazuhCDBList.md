@@ -2,7 +2,7 @@
 
 ### Informations
 - Évaluation : **formatif**.
-- Type de travail : en équipe de 3.
+- Type de travail : en équipe de 3 ou 4.
 - Durée estimée : 2 heures.
 - Système d'exploitation : Linux, Windows.
 - Environnement : Virtuel. 
