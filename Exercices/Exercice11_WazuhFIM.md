@@ -2,7 +2,7 @@
 
 ### Informations
 - Évaluation : **formatif**.
-- Type de travail : en équipe de 3 ou 4.
+- Type de travail : en équipe de 3.
 - Durée estimée : 3 heures.
 - Système d'exploitation : Linux, Windows.
 - Environnement : Virtuel. 
@@ -30,7 +30,7 @@ Cet exercice va se diviser en deux parties. Dans la première partie, vous allez
 ## Section 1 : mini projet  
 ### Description du projet
 
-Notre projet va consister en un réseau principal et à une succursale. Le réseau principal va contenir un serveur Windows, un poste client Windows et un poste de contrôle Linux. La succursale va contenir un serveur Linux et un poste client Linux.
+Notre projet va consister en un réseau principal et à une succursale. Le réseau principal va contenir un serveur Windows, un poste client Windows, un serveur Linux Wazuh et un poste de contrôle Linux. La succursale va contenir un serveur Linux et un poste client Linux.
 
 Voici la topologie :
 
