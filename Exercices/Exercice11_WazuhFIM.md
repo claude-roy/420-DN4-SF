@@ -69,6 +69,7 @@ Vous devez créer un dépôt GitHub pour votre projet :
 	-  Les noms des membres de l'équipe.  
 	-  Date.  
 	-  Description du projet.  
+	-  Une capture d'écran des tableaux de bord des deux serveurs Wazuh, où l'on voit également les agents (Ubuntu et Windows) reliés aux serveurs Wazuh.  
 - Vous devez utiliser le format Markdown (md).  
 - N'oubliez pas de donner vos sites de références.  
 - Je vais vous indiquer les autres documents à inclure à fur et à mesure du développement du projet.  
