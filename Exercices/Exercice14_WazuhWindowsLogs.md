@@ -2,7 +2,7 @@
 
 ### Informations
 - Évaluation : **formatif**.
-- Type de travail : en équipe de 3 ou 4.
+- Type de travail : en équipe de 3.
 - Durée estimée : 3 heures.
 - Système d'exploitation : Linux, Windows.
 - Environnement : Virtuel. 
@@ -196,15 +196,15 @@ Sysmon nous donne des données complètes sur la création de processus, les con
 
 Voici les instructions pour l'installation de Sysmon sur le système Windows 10 (vous devez être connecté avec un utilisateur local ayant des droits administrateur, utiliser env-admin sur CyberQuébec).  
 
-####Étape 1 – Téléchargez et extrayez Sysmon  
+#### Étape 1 – Téléchargez et extrayez Sysmon  
 Pour télécharger Sysmon sur votre machine Windows, visitez son site Web officiel : [https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon](https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon). Une fois téléchargé, extrayez l’archive Sysmon dans un dossier de votre choix sur votre machine Windows.  
 
-####Étape 2 – Téléchargez la configuration Sysmon de SwiftOnSecurity  
+#### Étape 2 – Téléchargez la configuration Sysmon de SwiftOnSecurity  
 La configuration Sysmon de SwiftOnSecurity est un fichier de configuration simple et bien connu créé par des professionnels de la sécurité réputés. L’utilisation de cette configuration peut améliorer nos capacités de surveillance Windows. Pour télécharger le fichier de configuration Sysmon de SwiftOnSecurity, visitez leur référentiel GitHub officiel ([https://github.com/SwiftOnSecurity/sysmon-config](https://github.com/SwiftOnSecurity/sysmon-config)) et téléchargez la dernière version du fichier de configuration appelée `sysmonconfig-export.xml`.  
 
 **Remarque :** Assurez-vous de placer le fichier `sysmonconfig-export.xml` dans le même dossier où vous avez extrait Sysmon.  
 
-####Étape 3 – Installer Sysmon avec la configuration SwiftOnSecurity
+#### Étape 3 – Installer Sysmon avec la configuration SwiftOnSecurity
 Pour installer Sysmon à l’aide du fichier de configuration SwiftOnSecurity appelé `sysmonconfig-export.xml`, vous devez suivre certaines étapes  :  
 
 1. Ouvrez une invite de commande ou PowerShell avec des privilèges d’administrateur.  
