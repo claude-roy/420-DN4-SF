@@ -5,7 +5,7 @@
 | Sécurisation d'un parc informatique -- AEC (LEADN)    |
 | :---                                                  |
 | Sécurisation des appareils                            |
-| Automne 2025 -- Bloc 6 -- UBR 4155 Groupe 1           |
+| Automne 2025 -- Bloc 6 -- UBR 4155 Groupe 12041       |
 
 
 ## CALENDRIER
