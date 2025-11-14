@@ -15,7 +15,7 @@ fonction des circonstances. Dans le cas des examens, les étudiants
 seront toujours avisés dans un délai raisonnable
 
 | Cours | Date | Contenu | Exercices/TP | Compétences | Évaluations sommatives[^1] |  
-| :---: | :---: | :---: |  :---: | :---: | :---: |  
+| :---: | :---: |:--- |:--- | :---: |:--- |  
 | 1 |8 déc.| Présentation du plan de cours <br> Configuration d'un appareil intermédiaire, routage. | PTs : 2.3.7, 2.7.6, 2.9.1, 10.1.4, 10.3.4 <br> ER : PT 10.4.3 | FW17\[1-3\] | |        
 | 2 |10 déc.| Routage statique, routage dynamique (OSPF) | | FW17\[1-3\] | |
 | 3 |15 déc.| Sécuriser le réseau en le segmentant : Commutation Ethernet, VLANs. | PTs : 15.6.2, 2.2.13, 2.3.11, 2.5.3, 2.6.6. <br> ER : PT 2.7.1 | FW17\[1-3\] | |
