@@ -39,7 +39,7 @@ Le noms des VLANs
 À la partie 2, étape 2.a, Gestion est **MANAGEMENT**.  
 
 ### 13.5.1
-Le SSID pour le réseau domestique est HommeSSID.  
+Le SSID pour le réseau domestique est HomeSSID.  
 À la partie 2, étape 2, le nom de l'étendue est **management**.  
 À la partie 2, étape 4.a, le nom du profil est **Wireless VLAN 2**.  
 À la partie 2, étape 4.b, le nom du profil est **Wireless VLAN 5**.  
