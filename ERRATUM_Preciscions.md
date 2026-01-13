@@ -18,6 +18,16 @@ Le noms des VLANs
 | 99   | Management |
 | 100  | Native     |
 
+#### 4.3.8
+
+Le noms des VLANs  
+
+| VLAN | Nom        |
+|:----:|:-----------|
+| 10   | Staff      |
+| 20   | Student    |
+| 30   | Faculty    |
+
 #### 13.3.1.10
 À Partie 1, étape 1, administrateur fait référence au poste Admin dans la topologie.  
 À Partie 2, étape 3, portable1 fait référence à Laptop1. Après avoir choisi le SSID, vous devez cliquer sur Connect. Le portable2 fait référence à Laptop2.  
