@@ -40,11 +40,11 @@ seront toujours avisés dans un délai raisonnable
 | 22 |25 fév.| | **Évaluation 2 - installation sécuritaire et intégrité** | FW17\[2-4\] | |
 | 23 |2 mars| Détection d'intrusion et sécurisation | Exercice 8 : Wazuh, mise en place <br> Exercice 9 : Détections d'attaques | FW17\[2-4\] | **Évaluation 2 - installation sécuritaire et intégrité** |
 | 24 |4 mars| | Exercice 10 : Projet et FIM <br> EFCS : Présentation du projet. | FW17\[1-4\] | |
-| 25 |9 mars| | Exercice 11 : Listes CDB <br> Exercice 12 : Intégration de VirusTotal | FW17\[1-4\] | |
-| 26 |11 mars| | Exercice 13 : Intégration des journaux de Windows | FW17\[1-4\] | |
-| 27 |14 mars<br>samedi| | Exercice 14 : Renseignement automatisé sur les menaces | FW17\[1-4\] | |
+| 25 |9 mars| Travail sur les exercices |  | FW17\[1-4\] | |
+| 26 |11 mars| | Exercice 11 : Listes CDB <br> Exercice 12 : Intégration de VirusTotal | FW17\[1-4\] | |
+| 27 |14 mars<br>samedi| | Exercice 13 : Intégration des journaux de Windows | FW17\[1-4\] | |
 | 28 |14 mars<br>samedi| Travail sur les exercices | | FW17\[1-4\] | |
-| 29 |16 mars| Travail sur les exercices | | FW17\[1-4\] | |
+| 29 |16 mars| Travail sur EFCS : Projet| | FW17\[1-4\] | |
 | 30 |18 mars| EFCS : Projet | | FW17\[1-4\] | **EFCS** |
 
 [^1]: Cette colonne représente les dates de remise pour les exercices et
