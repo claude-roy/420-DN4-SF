@@ -29,12 +29,12 @@ seront toujours avisés dans un délai raisonnable
 | 11 |26 jan.| CyberOps Associate Module 12 <br> CyberOps Associate Module 18 | Exercice 2 : Installation d'un pare-feu réseau | FW17\[1-2\] | |
 | 12 |28 jan.| | Exercice 3 : Sécurisation des services avec un pare-feu réseau (ER) | FW17\[1-2\] | |
 | 13 |2 fév.| Travail sur les exercices | | FW17\[2\] | |
-| 14 |4 fév.| Sécurité des réseaux sans-fil | PTs : 13.1.10, 13.2.7, 13.3.12, 13.4.5, 13.5.1, 13.5.2. | FW17\[2\] | |
-| 15 |9 fév.| Installation sécuritaire et intégrité des systèmes avec l'automatisation |  [Exercice 4 : L'automatisation : Ansible - mise en place (ER)](./Exercices/Exercice04_AnsibleMiseEnPlace.md) | FW17\[2-3\] | |
-| 16 |11 fév.| Travail sur les exercices | | | |
+| 14 |4 fév.| Sécurité des réseaux sans-fil |  | FW17\[2\] | |
+| 15 |9 fév.| Installation sécuritaire et intégrité des systèmes avec l'automatisation | PTs : 13.1.10, 13.2.7, 13.3.12, 13.4.5, 13.5.1, 13.5.2. | FW17\[2-3\] | |
+| 16 |11 fév.| | [Exercice 4 : L'automatisation : Ansible - mise en place (ER)](./Exercices/Exercice04_AnsibleMiseEnPlace.md)| FW17\[2-3\]| |
 | 17 |16 fév.| | [Exercice 5 : L'automatisation : Ansible mode ad hoc](./Exercices/Exercice05_AnsibleModeAdHoc.md) <br> [Exercice 6 : L'automatisation : Ansible playbook (ER)](./Exercices/Exercice06_AnsiblePlaybook.md) | FW17\[2-3\] | |
 | 18 |18 fév.| Travail sur les exercices | | | |
-| 19 |21 fév.<br>samedi| Journalisation et suivi | Exercice 7 : Journalisation (ER) | FW17\[4\] | |
+| 19 |21 fév.<br>samedi| Journalisation et suivi | [Exercice 7 : Journalisation (ER)](./Exercices/Exercice07_Journalisation.md) | FW17\[4\] | |
 | 20 |21 fév.<br>samedi| Travail sur les exercices | | | |
 | 21 |23 fév.| | **Évaluation 2 - installation sécuritaire et intégrité** | FW17\[2-4\] | |
 | 22 |25 fév.| | **Évaluation 2 - installation sécuritaire et intégrité** | FW17\[2-4\] | |
