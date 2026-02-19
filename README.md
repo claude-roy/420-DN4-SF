@@ -38,7 +38,7 @@ seront toujours avisés dans un délai raisonnable
 | 20 |21 fév.<br>samedi| Travail sur les exercices | | | |
 | 21 |23 fév.| | **Évaluation 2 - installation sécuritaire et intégrité** | FW17\[2-4\] | |
 | 22 |25 fév.| | **Évaluation 2 - installation sécuritaire et intégrité** | FW17\[2-4\] | |
-| 23 |2 mars| Détection d'intrusion et sécurisation | Exercice 8 : Wazuh, mise en place <br> Exercice 9 : Détections d'attaques | FW17\[2-4\] | **Évaluation 2 - installation sécuritaire et intégrité** |
+| 23 |2 mars| Détection d'intrusion et sécurisation | [Exercice 8 : Wazuh, mise en place](./Exercices/Exercice08_WazuhMiseEnplace.md) <br> [Exercice 9 : Détections d'attaques](./Exercices/Exercice09_WazuhDetectionAttaques.md) | FW17\[2-4\] | **Évaluation 2 - installation sécuritaire et intégrité** |
 | 24 |4 mars| | Exercice 10 : Projet et FIM <br> EFCS : Présentation du projet. | FW17\[1-4\] | |
 | 25 |9 mars| Travail sur les exercices |  | FW17\[1-4\] | |
 | 26 |11 mars| | Exercice 11 : Listes CDB <br> Exercice 12 : Intégration de VirusTotal | FW17\[1-4\] | |
