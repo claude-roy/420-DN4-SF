@@ -36,8 +36,8 @@ seront toujours avisés dans un délai raisonnable
 | 18 |18 fév.| Travail sur les exercices | | | |
 | 19 |21 fév.<br>samedi| Journalisation et suivi | [Exercice 7 : Journalisation (ER)](./Exercices/Exercice07_Journalisation.md) | FW17\[4\] | |
 | 20 |21 fév.<br>samedi| Travail sur les exercices | | | |
-| 21 |23 fév.| | **Évaluation 2 - installation sécuritaire et intégrité** | FW17\[2-4\] | |
-| 22 |25 fév.| | **Évaluation 2 - installation sécuritaire et intégrité** | FW17\[2-4\] | |
+| 21 |23 fév.| | [**Évaluation 2 - installation sécuritaire et intégrité**](./Evaluations/Evaluation2.md) | FW17\[2-4\] | |
+| 22 |25 fév.| | [**Évaluation 2 - installation sécuritaire et intégrité**](./Evaluations/Evaluation2.md) | FW17\[2-4\] | |
 | 23 |2 mars| Détection d'intrusion et sécurisation | [Exercice 8 : Wazuh, mise en place](./Exercices/Exercice08_WazuhMiseEnplace.md) <br> [Exercice 9 : Détections d'attaques](./Exercices/Exercice09_WazuhDetectionAttaques.md) | FW17\[2-4\] | **Évaluation 2 - installation sécuritaire et intégrité** |
 | 24 |4 mars| | Exercice 10 : Projet et FIM <br> EFCS : Présentation du projet. | FW17\[1-4\] | |
 | 25 |9 mars| Travail sur les exercices |  | FW17\[1-4\] | |
