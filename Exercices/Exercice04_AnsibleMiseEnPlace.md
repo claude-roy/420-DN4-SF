@@ -63,7 +63,7 @@ Vous devez changer les noms d'hôte de vos serveurs avec la commande `hostnamect
 Vous devez également mettre des adresses statiques à vos serveurs. Consultez l'adresse Web [suivante](https://linuxconfig.org/setting-a-static-ip-address-in-ubuntu-24-04-via-the-command-line) pour savoir comment mettre une adresse statique à un serveur Ubuntu. Je vous recommande les adresses suivantes :
 
 - ```srv-web-01``` = 192.168.1.254/24  
-- ```srv-mysql-01``` = 192.168.1.153/24  
+- ```srv-mysql-01``` = 192.168.1.253/24  
 
 ## Section 1 : Mise en place de l'utilisateur et de SSH 
 
