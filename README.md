@@ -39,10 +39,10 @@ seront toujours avisés dans un délai raisonnable
 | 21 |23 fév.| | [**Évaluation 2 - installation sécuritaire et intégrité**](./Evaluations/Evaluation2.md) | FW17\[2-4\] | |
 | 22 |25 fév.| | [**Évaluation 2 - installation sécuritaire et intégrité**](./Evaluations/Evaluation2.md) | FW17\[2-4\] | |
 | 23 |2 mars| Détection d'intrusion et sécurisation | [Exercice 8 : Wazuh, mise en place](./Exercices/Exercice08_WazuhMiseEnplace.md) <br> [Exercice 9 : Détections d'attaques](./Exercices/Exercice09_WazuhDetectionAttaques.md) | FW17\[2-4\] | **Évaluation 2 - installation sécuritaire et intégrité** |
-| 24 |4 mars| | Exercice 10 : Projet et FIM <br> EFCS : Présentation du projet. | FW17\[1-4\] | |
+| 24 |4 mars| | [Exercice 10 : Projet et FIM](./Exercices/Exercice10_WazuhFIM.md) <br> EFCS : Présentation du projet. | FW17\[1-4\] | |
 | 25 |9 mars| Travail sur les exercices |  | FW17\[1-4\] | |
-| 26 |11 mars| | Exercice 11 : Listes CDB <br> Exercice 12 : Intégration de VirusTotal | FW17\[1-4\] | |
-| 27 |14 mars<br>samedi| | Exercice 13 : Intégration des journaux de Windows | FW17\[1-4\] | |
+| 26 |11 mars| | [Exercice 11 : Listes CDB](./Exercices/Exercice11_WazuhCDBList.md) <br> [Exercice 12 : Intégration de VirusTotal](./Exercices/Exercice12_WazuhVirusTotal.md) | FW17\[1-4\] | |
+| 27 |14 mars<br>samedi| | [Exercice 13 : Intégration des journaux de Windows](./Exercices/Exercice13_WazuhWindowsLogs.md) | FW17\[1-4\] | |
 | 28 |14 mars<br>samedi| Travail sur les exercices | | FW17\[1-4\] | |
 | 29 |16 mars| Travail sur EFCS : Projet| | FW17\[1-4\] | |
 | 30 |18 mars| EFCS : Projet | | FW17\[1-4\] | **EFCS** |
