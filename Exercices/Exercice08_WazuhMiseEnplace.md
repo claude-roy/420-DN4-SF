@@ -210,7 +210,7 @@ Voici les commandes pour l'installation (vous devez adapter pour votre version d
 cd /tmp/ && curl -LO https://rules.emergingthreats.net/open/suricata-8.0.3/emerging.rules.tar.gz  
 sudo mkdir -p /etc/suricata/rules  
 sudo tar -xvzf emerging.rules.tar.gz && sudo mv rules/*.rules /etc/suricata/rules/  
-sudo chown -R /etc/suricata/rules/  
+sudo chown -R root:root /etc/suricata/rules/  
 sudo chmod 640 /etc/suricata/rules/*.rules  
 ~~~  
 
