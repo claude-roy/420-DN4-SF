@@ -136,6 +136,8 @@ NET START WazuhSvc
 ![Emplacement des événements Windows Defender.](images/DefenderLogsName.png "Figure 7 : Emplacement des événements Windows Defender.")  
 **Figure 7 : Emplacement des événements Windows Defender.**
 
+**Remarque** : vérifier si le fichier d'agent `ossec.conf` situé dans `C:\Program Files (x86)\ossec-agent` à reçu la nouvelle configuration. Sinon, faire la modification.  
+
 ### Tester la détection d'un malware
 
 Encore ici, nous allons utiliser le fichier de test EICAR. Vous pouvez télécharger le fichier de test **eicar_com.zip** à partir de leur site Web officiel : [https://www.eicar.org/download-anti-malware-testfile/](https://www.eicar.org/download-anti-malware-testfile/). Télécharger le fichier dans le dossier **Downloads**.
@@ -144,19 +146,18 @@ Encore ici, nous allons utiliser le fichier de test EICAR. Vous pouvez télécha
 
 Dans le tableau de bord de Wazuh, déplacez-vous à l'agent Windows 10 et cliquez l'onglet **Threat Hunting**.
 
-![Wazuh, Windows 10 Threat Hunting.](images/Win10ThreatHunting.png "Figure 8 : Wazuh, Windows 10 Threat Hunting.")  
-**Figure 8 : Wazuh, Windows 10 Threat Hunting.**
+Cliquez l'onglet **Events** et vous devriez trouver l'événement de Windows Defender.
 
-
-Cliquez l'onglet **Events** et vous devriez trouver l'événement d'un fichier effacé.
-
-![Wazuh, Windows 10 fichier effacer.](images/Win10FileDeleted.png "Figure 9 : Wazuh, Windows 10 fichier effacer.")  
-**Figure 9 : Wazuh, Windows 10 fichier effacer.**
+![Wazuh, Windows 10 Windows Defender.](images/Win10ThreatHunting.png "Figure 8 : Wazuh, Windows 10 Windows Defender.")  
+**Figure 8 : Wazuh, Windows 10 fichier effacer.**
 
 Observer les détails de l'événement.
 
-![Wazuh, Windows 10 fichier effacer détails.](images/Win10FileDeletedDetails.png "Figure 10 : Wazuh, Windows 10 fichier effacer détails.")  
-**Figure 10 : Wazuh, Windows 10 fichier effacer détails.**
+![Wazuh, Windows 10 Windows Defender Quarantine.](images/Win10Defender.png "Figure 9 : Wazuh, Windows 10 Windows Defender Quarantine.")  
+**Figure 9 : Wazuh, Windows Defender Quarantine.**
+
+![Wazuh, Windows 10 Windows Defender Quarantine suite.](images/Win10Defender2.png "Figure 10 : Wazuh, Windows 10 Windows Defender Quarantine suite.")  
+**Figure 10 : Wazuh, Windows Defender Quarantine suite.**
 
 ## Section 2 : Intégration de Sysmon dans Wazuh détecter un malware sans fichier  
 
