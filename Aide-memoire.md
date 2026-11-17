@@ -1,9 +1,9 @@
-# Aide mémoire
+# Aide-mémoire
 
 ---
 **NOTE**
 
-Ceci est un aide mémoire et non un cours ni une liste exhaustive de commandes à connaître pour un examen.
+Ceci est un aide-mémoire et non un cours ni une liste exhaustive de commandes à connaître pour un examen.
 
 ---
 
@@ -17,13 +17,13 @@ Ceci est un aide mémoire et non un cours ni une liste exhaustive de commandes �
 | ls | Liste les fichiers (-a affichage des fichiers cachés, -l affichage long) |
 | cd | Change le répertoire courant |
 | cat | Concatène des fichiers vers la sortie |
-| less | Affiche et pagine un fichier |
-| touch | Création / MAJ dates de fichiers |
-| head / tail | Affiche le début / fin d'un fichier |
+| less | Affiche et pagine un fichier |
+| touch | Crée un fichier ou met à jour ses dates |
+| head / tail | Affiche le début ou la fin d'un fichier |
 | grep | Recherche un motif dans un fichier |
 | locate | Recherche de fichiers à partir d'une base de données |
-| find | Recherche de fichiers à partir du système de fichiers |
-| mount | Crée un point de montage |
+| find | Recherche de fichiers à partir du système de fichiers |
+| mount | Monte un système de fichiers |
 | diff | Compare des fichiers entre eux |
 | cal | Affiche un calendrier |
 | wget / curl | Effectue une requête web |
@@ -35,13 +35,13 @@ Ceci est un aide mémoire et non un cours ni une liste exhaustive de commandes �
 
 | Commande |  Courte description |
 |---|---|
-| git init | Initialise un dépot Git |
-| git clone | Clone un dépot Git distant |
+| git init | Initialise un dépôt Git |
+| git clone | Clone un dépôt Git distant |
 | git add | Ajoute un fichier dans le suivi |
-| git status | Affiche le status du dépot |
+| git status | Affiche l'état du dépôt |
 | git commit | Valide les modifications |
 | git pull | Récupère les modifications distantes |
-| git push | Envoie les modifications locales vers le dépot distant |
+| git push | Envoie les modifications locales vers le dépôt distant |
 
 ### Les éditeurs de texte
 
@@ -66,7 +66,7 @@ Ceci est un aide mémoire et non un cours ni une liste exhaustive de commandes �
 |---|---|
 | mkdir dir | Crée un répertoire |
 | cp | Copie de fichiers / répertoires |
-| mv | Déplacement de fichiers / répertoire |
+| mv | Déplacement de fichiers / répertoires |
 | rm | Supprime un fichier / répertoire |
 | ln | Crée un lien vers un fichier |
 
@@ -78,7 +78,7 @@ Ceci est un aide mémoire et non un cours ni une liste exhaustive de commandes �
 | chown | Modifie le propriétaire d'un fichier |
 | chgrp | Modifie le groupe d'un fichier |
 
-### Gestion des processsus
+### Gestion des processus
 
 | Commande |  Courte description |
 |---|---|
@@ -90,65 +90,67 @@ Ceci est un aide mémoire et non un cours ni une liste exhaustive de commandes �
 
 | Commande |  Courte description |
 |---|---|
-| lsmod | Afficher l'état des modules dans le noyau Linux  |
-| modprode | Ajouter et supprimer des modules du noyau Linux  |
-| modinfo | Afficher des informations sur un module du noyau Linux  |
+| lsmod | Affiche l'état des modules dans le noyau Linux |
+| modprobe | Ajoute ou retire des modules du noyau Linux |
+| modinfo | Affiche des informations sur un module du noyau Linux |
 
 
 
-### Commande réseau
+### Commandes réseau
 
 | Commande |  Courte description |
 |---|---|
-| ip addr show / ip a | Affiche les adresses IPs |
-| ip addr show dev enp0s3 | Affiche l'adresses IP de l'interface enp0s3 |
-| ip link show | Affiche les interfaces réseaux |
-| sudo ip link set enp0s3 up/down | Active / désactive un interface réseau |
+| ip addr show / ip a | Affiche les adresses IP |
+| ip addr show dev enp0s3 | Affiche l'adresse IP de l'interface enp0s3 |
+| ip link show | Affiche les interfaces réseau |
+| sudo ip link set enp0s3 up/down | Active / désactive une interface réseau |
 | ip route | Affiche la table de routage |
 | ping | Effectue une suite de requêtes ICMP |
 | nslookup | Interroge le serveur DNS |
-| sudo nft | Affiche / configure les règles du coupe-feu |
-| traceroute | Affiche les noeuds traversés vers une destination |
+| sudo nft list ruleset | Affiche les règles du coupe-feu |
+| traceroute | Affiche les nœuds traversés vers une destination |
 
 ## Docker
 ### Installation
-Installer Docker Linux:  
+Installer Docker sous Linux :  
 
-```docker
+```bash
 curl -sSL https://get.docker.com/ | sh
 ```
 
-### Container
+**Attention** : cette commande télécharge et exécute un script distant sans vérification préalable. Il est préférable de consulter le script avant de l'exécuter ou d'utiliser l'installation par le dépôt APT officiel de Docker.
 
-```docker
+### Conteneur
+
+```bash
 docker container run -d --publish 8080:80 --name webhost nginx
 docker container top webhost
 docker container inspect webhost
 docker container stats webhost
 
-#Open a shell in a new container
+# Ouvre un shell dans un nouveau conteneur
 docker container run -it --name proxy nginx bash
 docker container run -it alpine sh
-#Relance un container avec shell interactif
+docker container run -it --name ubuntu ubuntu bash
+# Relance un conteneur avec un shell interactif
 docker container start -ai ubuntu
-#Open shel in a running container
+# Ouvre un shell dans un conteneur en cours d'exécution
 docker container exec -it mysql bash
 
 
-#Afficher les ports ouverts
+# Affiche les ports ouverts
 docker container port webhost
-#Affciher Adresse IP
-docker container inspect --format '{{ .NetworkSettings.IPAddress }}' webhost
+# Affiche l'adresse IP
+docker container inspect --format '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' webhost
 
 ```
 
-### Réseau dans docker
-```docker
-# Informations
-driver = network type
-Network type = bridge, user-defined bridge, host, macvlan
+### Réseau dans Docker
 
-# Create a user-defined bidge
+Le pilote (*driver*) détermine le type de réseau. Principaux types : `bridge`, *user-defined bridge*, `host`, `macvlan`, `ipvlan`, `overlay` et `none`.
+
+```bash
+# Crée un réseau bridge défini par l'utilisateur
 docker network create my_network
 docker network ls
 docker container run -d --name new_nginx --network my_network nginx
@@ -158,9 +160,9 @@ docker network disconnect my_network old_nginx
 ```
 
 
-### System
+### Système
 
-```docker
+```bash
 # Vérifie l'espace disque utilisé
 docker system df
 
@@ -168,18 +170,19 @@ docker system df
 
 ### Docker compose
 
-```docker
+```bash
 docker compose up -d  # Lancer les conteneurs.
 docker compose up -d --build  # Relancer vos conteneurs en forçant la reconstruction des images.
-docker compose ps  # voir les conteneurs qui s'exécutent
 docker compose logs # Consulter les journaux.
-docker compose ps # Lister les conteneurs qui s’exécutent.
-docker compose top # Lister les services qui s’exécutent dans les conteneurs.
+docker compose ps # Lister les conteneurs qui s'exécutent.
+docker compose top # Lister les services qui s'exécutent dans les conteneurs.
 docker compose down # Arrêter vos conteneurs.
-docker compose down --rmi local # Arrêter vos conteneurs et effacer les images.
+docker compose down --rmi local # Arrêter vos conteneurs et supprimer les images construites localement (--rmi all pour toutes).
 
 ```
 
+---
 
-Jean-Pierre Duchesneau  
-Claude Roy
+*Version 2026-11-17*  
+
+Avec la collaboration de Jean-Pierre Duchesneau  
