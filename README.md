@@ -31,7 +31,7 @@ seront toujours avisés dans un délai raisonnable.
 | 14 |9 fév.| Sécurité des réseaux sans fil | PT : 13.1.10, 13.2.7, 13.3.12, 13.4.5, 13.5.1, 13.5.2 | FW17\[2\] | |
 | 15 |11 fév.| Installation sécuritaire et intégrité des systèmes avec l'automatisation |  | FW17\[2-3\] |**Exercice 3 : Sécurisation des services avec un pare-feu réseau** |
 | 16 |16 fév.| | Exercice 4 : L'automatisation : Ansible - mise en place (ER)| FW17\[2-3\]| |
-| 17 |18 fév.| | Exercice 5 : L'automatisation : Ansible mode ad hoc <br> Exercice 6 : L'automatisation : Ansible playbook | FW17\[2-3\] | |
+| 17 |18 fév.| Ansible mode ad hoc| Exercice 5 : L'automatisation : Ansible mode ad hoc <br> Exercice 6 : L'automatisation : Ansible playbook | FW17\[2-3\] | |
 | 18 |23 fév.| Travail sur les exercices | | |**Exercice 4 : L'automatisation : Ansible - mise en place** |
 | 19 |25 fév.| Journalisation et suivi | Exercice 7 : Journalisation | FW17\[4\] | |
 | 20 |27 fév.<br>samedi| | **Évaluation 2 – installation sécuritaire et intégrité** | FW17\[2-4\] | |
@@ -62,4 +62,4 @@ l'évaluation ou la date de remise de l'évaluation. Pour l'EFCS, elle représen
 
 ---  
 
-*Version 2026-11-17*
+*Version 2026-11-18*
